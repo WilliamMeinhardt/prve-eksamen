@@ -34,7 +34,7 @@ export default function Home() {
             <div className="relative">
               <div className="bg-[#7EB6D7] rounded-3xl overflow-hidden relative aspect-square max-w-md mx-auto">
                 <img
-                  src="/placeholder.svg?height=500&width=500&text=IT-utstyr"
+                  src="/bilder/gyat.png"
                   alt="IT-utstyr"
                   className="w-full h-full object-cover"
                 />
