@@ -41,7 +41,7 @@ export default function EmployeesPage() {
                         <div className="bg-[#7EB6D7] aspect-square relative">
                           <div className="absolute inset-0 flex items-center justify-center">
                             <img
-                              src={`/placeholder.svg?height=400&width=400&text=${employee.name}`}
+                              src={`/=${employee.name}`}
                               alt={employee.name}
                               className="w-full h-full object-cover"
                             />
