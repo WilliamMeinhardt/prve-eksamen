@@ -41,12 +41,8 @@ export default function Header() {
           </nav>
 
           <div className="hidden md:flex items-center space-x-4">
-            <Link href="/logg-inn" className="text-gray-700 hover:text-black font-medium">
-              Logg inn
-            </Link>
-            <Button className="bg-black text-white hover:bg-gray-800 rounded-full">
-              Registrer deg
-            </Button>
+            
+          
           </div>
 
           {/* Mobile menu button */}

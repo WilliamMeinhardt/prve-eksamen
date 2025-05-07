@@ -1,0 +1,62 @@
+[
+  {
+    "kategori": "Laptop",
+    "type": "Ultrabook",
+    "modell": "Dell XPS 13",
+    "bilde": "/bilder/dell.jpg"
+  },
+  {
+    "kategori": "Laptop",
+    "type": "Gaming",
+    "modell": "Asus ROG Zephyrus G14",
+    "bilde": "/bilder/rog.jpg"
+  },
+  {
+    "kategori": "Skjerm",
+    "type": "4K",
+    "modell": "LG UltraFine 27UN850",
+    "bilde": "/bilder/lg.jpg"
+  },
+  {
+    "kategori": "Skjerm",
+    "type": "Curved",
+    "modell": "Samsung Odyssey G7",
+    "bilde": "/bilder/samsung.jpg"
+  },
+  {
+    "kategori": "Nettbrett",
+    "type": "Android",
+    "modell": "Samsung Galaxy Tab S8",
+    "bilde": "/bilder/s8.jpg"
+  },
+  {
+    "kategori": "Nettbrett",
+    "type": "iOS",
+    "modell": "iPad Pro 12.9",
+    "bilde": "/bilder/ipad.jpg"
+  },
+  {
+    "kategori": "Projektor",
+    "type": "Full HD",
+    "modell": "Epson EH-TW7100",
+    "bilde": "/bilder/Epson.jpg"
+  },
+  {
+    "kategori": "Kamera",
+    "type": "Webkamera",
+    "modell": "Logitech C920 HD Pro",
+    "bilde": "/bilder/Pro.jpg"
+  },
+  {
+    "kategori": "Headset",
+    "type": "Støyreduserende",
+    "modell": "Sony WH-1000XM5",
+    "bilde": "/bilder/sony.jpg"
+  },
+  {
+    "kategori": "Mobiltelefon",
+    "type": "Android",
+    "modell": "Google Pixel 8",
+    "bilde": "/bilder/google.jpg"
+  }
+]

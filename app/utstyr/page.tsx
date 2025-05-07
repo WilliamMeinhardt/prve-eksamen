@@ -134,7 +134,7 @@ export default function EquipmentPage() {
                 <div key={index} className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
                   <div className="aspect-video bg-gray-100 relative">
                     <img
-                      src={`/placeholder.svg?height=200&width=300&text=${item.modell}`}
+                      src={item.bilde}
                       alt={item.modell}
                       className="w-full h-full object-cover"
                     />

@@ -23,12 +23,7 @@ export default function Home() {
                 <Button className="bg-black text-white hover:bg-gray-800 rounded-full px-6">
                   Kom i gang
                 </Button>
-                <Button variant="outline" className="rounded-full flex items-center gap-2 border-gray-300">
-                  <div className="w-8 h-8 rounded-full bg-gray-100 flex items-center justify-center">
-                    <Play className="h-3.5 w-3.5 ml-0.5" />
-                  </div>
-                  <span>Se hvordan det fungerer</span>
-                </Button>
+               
               </div>
             </div>
             <div className="relative">
@@ -51,7 +46,7 @@ export default function Home() {
                 <div className="flex items-center gap-2 mb-2">
                   <div className="w-8 h-8 rounded-full bg-gray-100 flex items-center justify-center">
                     <img
-                      src="/placeholder.svg?height=32&width=32&text=A"
+                      src="/bilder/morten.png"
                       alt="Avatar"
                       className="w-full h-full rounded-full"
                     />
@@ -78,11 +73,11 @@ export default function Home() {
             Over <span className="font-medium">250+</span> fornøyde kunder samarbeider med Impact IT
           </div>
           <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16">
-            <img src="/placeholder.svg?height=30&width=100&text=Google" alt="Google" className="h-6 opacity-70" />
-            <img src="/placeholder.svg?height=30&width=100&text=Telenor" alt="Telenor" className="h-6 opacity-70" />
-            <img src="/placeholder.svg?height=30&width=100&text=DNB" alt="DNB" className="h-6 opacity-70" />
-            <img src="/placeholder.svg?height=30&width=100&text=Equinor" alt="Equinor" className="h-6 opacity-70" />
-            <img src="/placeholder.svg?height=30&width=100&text=Vy" alt="Vy" className="h-6 opacity-70" />
+            <img src="/bilder/g.png" alt="Google" className="h-6 opacity-70" />
+            <img src="/bilder/t.jpg" alt="Telenor" className="h-6 opacity-70" />
+            <img src="/bilder/d.jpg" alt="DNB" className="h-6 opacity-70" />
+            <img src="/bilder/e.jpg" alt="Equinor" className="h-6 opacity-70" />
+            <img src="/bilder/v.jpg" alt="Vy" className="h-6 opacity-70" />
           </div>
         </div>
       </section>
@@ -147,7 +142,7 @@ export default function Home() {
             <div className="relative">
               <div className="bg-[#E57C65] rounded-3xl overflow-hidden relative aspect-square max-w-md">
                 <img
-                  src="/placeholder.svg?height=500&width=500&text=Support"
+                  src="/bilder/IT.jpg"
                   alt="Support"
                   className="w-full h-full object-cover"
                 />
@@ -203,7 +198,7 @@ export default function Home() {
             <div className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
               <div className="aspect-video bg-gray-100 relative">
                 <img
-                  src="/placeholder.svg?height=200&width=300&text=Dell+XPS+13"
+                  src="/bilder/dell.jpg"
                   alt="Dell XPS 13"
                   className="w-full h-full object-cover"
                 />
@@ -220,7 +215,7 @@ export default function Home() {
             <div className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
               <div className="aspect-video bg-gray-100 relative">
                 <img
-                  src="/placeholder.svg?height=200&width=300&text=iPad+Pro+12.9"
+                  src="/bilder/ipad.jpg"
                   alt="iPad Pro 12.9"
                   className="w-full h-full object-cover"
                 />
@@ -237,7 +232,7 @@ export default function Home() {
             <div className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
               <div className="aspect-video bg-gray-100 relative">
                 <img
-                  src="/placeholder.svg?height=200&width=300&text=Samsung+Odyssey+G7"
+                  src="/bilder/samsung.jpg"
                   alt="Samsung Odyssey G7"
                   className="w-full h-full object-cover"
                 />
