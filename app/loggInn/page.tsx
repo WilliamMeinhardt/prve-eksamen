@@ -35,7 +35,7 @@ export default function LoginPage() {
         localStorage.setItem("userEmail", email)
         
         // Omdiriger til brukerportal
-        router.push("/min-side")
+        router.push("/brukerportal")
       } else {
         setError("Ugyldig e-post eller passord. Prøv igjen.")
       }
