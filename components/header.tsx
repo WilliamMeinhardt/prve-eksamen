@@ -40,10 +40,12 @@ export default function Header() {
            
           </nav>
 
-          <div className="hidden md:flex items-center space-x-4">
-            
           
-          </div>
+<div className="hidden md:flex items-center space-x-4">
+  <Link href="/loggInn" className="text-gray-700 hover:text-black font-medium">
+    Logg inn
+  </Link>
+</div>
 
           {/* Mobile menu button */}
           <div className="md:hidden">
