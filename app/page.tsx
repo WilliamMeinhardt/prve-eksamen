@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-import { ArrowRight, Play } from 'lucide-react'
+import { ArrowRight } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 
 export default function Home() {
@@ -28,9 +28,11 @@ export default function Home() {
             </div>
             <div className="relative">
               <div className="bg-[#7EB6D7] rounded-3xl overflow-hidden relative aspect-square max-w-md mx-auto">
-                <img
+                <Image
                   src="/bilder/gyat.png"
                   alt="IT-utstyr"
+                  width={500}
+                  height={500}
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute top-4 right-4">
@@ -45,9 +47,11 @@ export default function Home() {
               <div className="absolute -bottom-6 -left-6 bg-white p-4 rounded-lg shadow-md max-w-[200px]">
                 <div className="flex items-center gap-2 mb-2">
                   <div className="w-8 h-8 rounded-full bg-gray-100 flex items-center justify-center">
-                    <img
+                    <Image
                       src="/bilder/morten.png"
                       alt="Avatar"
+                      width={32}
+                      height={32}
                       className="w-full h-full rounded-full"
                     />
                   </div>
@@ -73,11 +77,11 @@ export default function Home() {
             Over <span className="font-medium">250+</span> fornøyde kunder samarbeider med Impact IT
           </div>
           <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16">
-            <img src="/bilder/g.png" alt="Google" className="h-6 opacity-70" />
-            <img src="/bilder/t.jpg" alt="Telenor" className="h-6 opacity-70" />
-            <img src="/bilder/d.jpg" alt="DNB" className="h-6 opacity-70" />
-            <img src="/bilder/e.jpg" alt="Equinor" className="h-6 opacity-70" />
-            <img src="/bilder/v.jpg" alt="Vy" className="h-6 opacity-70" />
+            <Image src="/bilder/g.png" alt="Google" width={24} height={24} className="h-6 opacity-70" />
+            <Image src="/bilder/t.jpg" alt="Telenor" width={24} height={24} className="h-6 opacity-70" />
+            <Image src="/bilder/d.jpg" alt="DNB" width={24} height={24} className="h-6 opacity-70" />
+            <Image src="/bilder/e.jpg" alt="Equinor" width={24} height={24} className="h-6 opacity-70" />
+            <Image src="/bilder/v.jpg" alt="Vy" width={24} height={24} className="h-6 opacity-70" />
           </div>
         </div>
       </section>
@@ -144,6 +148,8 @@ export default function Home() {
                 <img
                   src="/bilder/IT.jpg"
                   alt="Support"
+                  width={500}
+                  height={500}
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -200,6 +206,8 @@ export default function Home() {
                 <img
                   src="/bilder/dell.jpg"
                   alt="Dell XPS 13"
+                  width={500}
+                  height={300}
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -217,6 +225,8 @@ export default function Home() {
                 <img
                   src="/bilder/ipad.jpg"
                   alt="iPad Pro 12.9"
+                  width={500}
+                  height={300}
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -234,6 +244,8 @@ export default function Home() {
                 <img
                   src="/bilder/samsung.jpg"
                   alt="Samsung Odyssey G7"
+                  width={500}
+                  height={300}
                   className="w-full h-full object-cover"
                 />
               </div>

@@ -74,6 +74,7 @@ export default function RegisterPage() {
       
     } catch (err) {
       setError("Det oppstod en feil ved registrering. Vennligst prøv igjen senere.")
+      console.log(err)
     } finally {
       setIsLoading(false)
     }

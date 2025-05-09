@@ -2,10 +2,12 @@
 
 import { useState, useEffect } from "react"
 import { useSearchParams } from "next/navigation"
-import { Filter, Search, ArrowRight } from 'lucide-react'
+import { Filter, Search } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import Image from 'next/image'
+// Remove ArrowRight import if unused
 
 type EquipmentItem = {
   kategori: string
@@ -133,9 +135,12 @@ export default function EquipmentPage() {
               {filteredEquipment.map((item, index) => (
                 <div key={index} className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
                   <div className="aspect-video bg-gray-100 relative">
-                    <img
+                    {/* Replace img tags with Image component */}
+                    <Image
                       src={item.bilde}
                       alt={item.modell}
+                      width={500}
+                      height={300}
                       className="w-full h-full object-cover"
                     />
                   </div>
