@@ -29,7 +29,7 @@ export default function LoginPage() {
       await new Promise(resolve => setTimeout(resolve, 1000))
       
       // For demo-formål, la oss godta en spesifikk e-post/passord
-      if (email === "demo@impactit.no" && password === "password") {
+      if (email === "willmein10@gmail.com" && password === "passord123") {
         // Lagre innloggingsstatus i localStorage (i en reell app ville du bruke en mer sikker metode)
         localStorage.setItem("isLoggedIn", "true")
         localStorage.setItem("userEmail", email)

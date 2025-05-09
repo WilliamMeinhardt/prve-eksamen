@@ -11,25 +11,25 @@ import { User, Package, History, LogOut } from 'lucide-react'
 // Simulert data for leieavtaler
 const rentalHistory = [
   {
-    id: "RA-2023-001",
-    startDate: "2023-10-15",
-    endDate: "2023-11-15",
+    id: "RA-2025-001",
+    startDate: "2025-10-15",
+    endDate: "2025-11-15",
     equipment: "Dell XPS 13",
     status: "Avsluttet",
     totalPrice: 4500
   },
   {
-    id: "RA-2023-002",
-    startDate: "2023-12-01",
-    endDate: "2024-01-01",
+    id: "RA-2025-002",
+    startDate: "2025-12-01",
+    endDate: "2025-01-01",
     equipment: "iPad Pro 12.9",
     status: "Avsluttet",
     totalPrice: 3000
   },
   {
-    id: "RA-2024-001",
-    startDate: "2024-02-01",
-    endDate: "2024-05-01",
+    id: "RA-2025-001",
+    startDate: "2025-02-01",
+    endDate: "2025-05-01",
     equipment: "Samsung Odyssey G7",
     status: "Aktiv",
     totalPrice: 7500
@@ -38,11 +38,11 @@ const rentalHistory = [
 
 // Simulert brukerdata
 const userData = {
-  name: "Ola Nordmann",
-  email: "demo@impactit.no",
-  phone: "+47 912 34 567",
-  company: "Nordmann AS",
-  address: "Storgata 1, 0182 Oslo"
+  name: "william meinhardt",
+  email: "willmein10@gmail.com",
+  phone: "+47",
+  company: "",
+  address: ""
 }
 
 export default function brukerportal() {
