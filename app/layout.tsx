@@ -4,6 +4,9 @@ import { Inter } from 'next/font/google'
 import "./globals.css"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
+import CookieConsent from "@/components/CookieConsent"
+import Script from "next/script"
+
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -20,9 +23,11 @@ export default function RootLayout({
   return (
     <html lang="no">
       <body className={`${inter.className} bg-[#f5f2ed]`}>
+        
         <Header />
         <main>{children}</main>
         <Footer />
+       <Script id="CookieConsent" src="https://policy.app.cookieinformation.com/uc.js" data-culture="NB" data-gcm-version="2.0" type="text/JavaScript" />
       </body>
     </html>
   )
