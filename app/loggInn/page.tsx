@@ -41,6 +41,7 @@ export default function LoginPage() {
       }
     } catch (err) {
       setError("Det oppstod en feil ved innlogging. Vennligst prøv igjen senere.")
+      console.log(err);
     } finally {
       setIsLoading(false)
     }

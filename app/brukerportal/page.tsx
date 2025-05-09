@@ -1,12 +1,11 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { useRouter } from "next/navigation"
-import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { User, Package, History, LogOut } from 'lucide-react'
+import { redirect } from "next/navigation"
 
 // Simulert data for leieavtaler
 const rentalHistory = [
@@ -45,8 +44,7 @@ const userData = {
   address: ""
 }
 
-export default function brukerportal() {
-  const router = useRouter()
+export default function Page() {
   const [isClient, setIsClient] = useState(false)
   const [activeTab, setActiveTab] = useState("oversikt")
   
@@ -55,14 +53,14 @@ export default function brukerportal() {
     // Sjekk om brukeren er logget inn
     const isLoggedIn = localStorage.getItem("isLoggedIn") === "true"
     if (!isLoggedIn) {
-      router.push("/logg-inn")
+      redirect("/logg-inn")
     }
-  }, [router])
+  }, [])
   
   const handleLogout = () => {
     localStorage.removeItem("isLoggedIn")
     localStorage.removeItem("userEmail")
-    router.push("/")
+    redirect("/")
   }
   
   if (!isClient) {

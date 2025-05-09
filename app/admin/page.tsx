@@ -10,7 +10,6 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { addEquipment, removeEquipment } from "@/lib/actions"
 
 type EquipmentItem = {
   kategori: string
@@ -80,7 +79,6 @@ export default function AdminPage() {
 
     try {
       // Add the new equipment
-      await addEquipment(newItem)
 
       // Update local state
       setEquipment((prev) => [...prev, newItem])
@@ -105,7 +103,6 @@ export default function AdminPage() {
     if (confirm("Er du sikker på at du vil slette dette utstyret?")) {
       try {
         // Remove the equipment
-        await removeEquipment(index)
 
         // Update local state
         setEquipment((prev) => prev.filter((_, i) => i !== index))
